@@ -8,7 +8,11 @@ const users = [
   { id: 5, name: "Bilal Iqbal", skills: ["Java", "Spring Boot", "MySQL"] },
   { id: 6, name: "Sana Tariq", skills: ["Figma", "Adobe XD", "UI/UX"] },
   { id: 7, name: "Ali Raza", skills: ["React Native", "Expo", "Firebase"] },
-  { id: 8, name: "Maria Qureshi", skills: ["TypeScript", "Next.js", "GraphQL"] },
+  {
+    id: 8,
+    name: "Maria Qureshi",
+    skills: ["TypeScript", "Next.js", "GraphQL"],
+  },
   { id: 9, name: "Faizan Sheikh", skills: ["PHP", "Laravel", "PostgreSQL"] },
   { id: 10, name: "Nida Farooq", skills: ["C#", ".NET Core", "Azure"] },
 ];

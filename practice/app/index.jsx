@@ -1,10 +1,14 @@
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, ScrollView} from "react-native";
 import SectionLists from "./SectionList";
+import  FormikForm  from "./FormikForm";
 
 const Index = () => {
   return (
     <View style={styles.container}>
-      <SectionLists />
+      <ScrollView>
+        <FormikForm />
+        <SectionLists />
+      </ScrollView>
     </View>
   );
 };
