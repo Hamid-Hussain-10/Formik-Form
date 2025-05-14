@@ -1,6 +1,7 @@
 import { View, StyleSheet, ScrollView} from "react-native";
 import SectionLists from "./SectionList";
 import  FormikForm  from "./FormikForm";
+import  Radiobtn  from "./Radiobtn";
 
 const Index = () => {
   return (
@@ -8,6 +9,7 @@ const Index = () => {
       <ScrollView>
         <FormikForm />
         <SectionLists />
+      <Radiobtn />
       </ScrollView>
     </View>
   );
